@@ -1,8 +1,8 @@
 {
-  "name": "nextjs-material-dashboard",
+  "name": "tennisbuddy-client",
   "version": "1.0.0",
   "private": true,
-  "description": "NextJS Material Dashboard",
+  "description": "Ultimate Tennis Reference Site",
   "engines": {
     "node": "14 || 15 || 16",
     "npm": ">=6"

@@ -70,7 +70,6 @@ function Main({ Component, pageProps }) {
     darkMode,
   } = controller;
   const [onMouseEnter, setOnMouseEnter] = useState(false);
-  const [rtlCache, setRtlCache] = useState(null);
   const { pathname } = useRouter();
 
   // Open sidenav when mouse enter on mini sidenav
@@ -166,7 +165,7 @@ function MyApp({
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="shortcut icon" href={favicon.src} />
           <link rel="apple-touch-icon" sizes="76x76" href={appleIcon.src} />
-          <title>NextJS Material Dashboard</title>
+          <title>TennisBuddy</title>
         </Head>
         <Main Component={Component} pageProps={pageProps} />
       </CacheProvider>

@@ -71,6 +71,92 @@ const routes = [
       },
     ],
   },
+  { type: "divider", key: "divider-1" },
+  { type: "title", title: "Tournaments", key: "tournaments" },
+  {
+    type: "collapse",
+    name: "Majors",
+    key: "majors",
+    icon: <Icon fontSize="medium">image</Icon>,
+    collapse: [
+      {
+        name: "Australian Open",
+        key: "australian-open",
+        route: "/pages/tournaments/majors/australian-open",
+      },
+      {
+        name: "French Open",
+        key: "french-open",
+        route: "/pages/tournaments/majors/french-open",
+      },
+      {
+        name: "Wimbledon",
+        key: "wimbledon",
+        route: "/pages/tournaments/majors/wimbledon",
+      },
+      {
+        name: "U.S. Open",
+        key: "us-open",
+        route: "/pages/tournaments/majors/us-open",
+      },
+    ],
+  },
+  {
+    type: "collapse",
+    name: "ATP",
+    key: "atp",
+    icon: <Icon fontSize="medium">image</Icon>,
+    collapse: [
+      {
+        name: "Australian Open",
+        key: "australian-open",
+        route: "/pages/tournaments/majors/australian-open",
+      },
+      {
+        name: "French Open",
+        key: "french-open",
+        route: "/pages/tournaments/majors/french-open",
+      },
+      {
+        name: "Wimbledon",
+        key: "wimbledon",
+        route: "/pages/tournaments/majors/wimbledon",
+      },
+      {
+        name: "U.S. Open",
+        key: "us-open",
+        route: "/pages/tournaments/majors/us-open",
+      },
+    ],
+  },
+  {
+    type: "collapse",
+    name: "WTP",
+    key: "wtp",
+    icon: <Icon fontSize="medium">image</Icon>,
+    collapse: [
+      {
+        name: "Australian Open",
+        key: "australian-open",
+        route: "/pages/tournaments/majors/australian-open",
+      },
+      {
+        name: "French Open",
+        key: "french-open",
+        route: "/pages/tournaments/majors/french-open",
+      },
+      {
+        name: "Wimbledon",
+        key: "wimbledon",
+        route: "/pages/tournaments/majors/wimbledon",
+      },
+      {
+        name: "U.S. Open",
+        key: "us-open",
+        route: "/pages/tournaments/majors/us-open",
+      },
+    ],
+  },
   { type: "title", title: "Pages", key: "title-pages" },
   {
     type: "collapse",
@@ -284,7 +370,7 @@ const routes = [
       },
     ],
   },
-  { type: "divider", key: "divider-1" },
+  { type: "divider", key: "divider-2" },
   { type: "title", title: "Docs", key: "title-docs" },
   {
     type: "collapse",

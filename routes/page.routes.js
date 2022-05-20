@@ -66,6 +66,16 @@ const pageRoutes = [
         ],
       },
       {
+        name: "tournaments",
+        icon: <Icon>precision_manufacturing</Icon>,
+        collapse: [
+          {
+            name: "timeline",
+            route: "/pages/projects/timeline",
+          },
+        ],
+      },
+      {
         name: "projects",
         icon: <Icon>precision_manufacturing</Icon>,
         collapse: [
